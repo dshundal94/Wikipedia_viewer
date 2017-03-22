@@ -1,0 +1,133 @@
+body {
+    background-color: #458B74;
+}
+
+h1 { 
+  text-align: center;
+  color: #FFA54F;
+  font-family: Lato Medium;
+  font-type: Bold;
+}
+#title { 
+  font-family: Lato Light;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+a {
+  color: #FFA54F;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 10px;
+}
+p {
+  text-align: center;
+}
+
+.box {
+  margin: 0 auto;
+  width: 350px;
+  margin-top: 100px;
+}
+#random { 
+    height: 200px;
+    width: 500px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+.button { 
+    margin-top: 5px;
+    background-color: #FFA54F; 
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 5px 17px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Lato Medium;
+    font-size: 20px;
+    font-weight: 10px;
+    display: inline-block;
+}
+
+.results {
+  text-decoration: none;
+  font-family: Lato Medium;
+  font-size: 12px;
+}
+
+.container-3{
+  width: 400px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+ 
+.container-3 input#search{
+  width: 400px;
+  height: 50px;
+  background: white;
+  border: none;
+  font-family: Lato Medium;
+  font-type: Bold;
+  font-size: 14pt;
+  float: left;
+  color: black;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #FFA54F;
+}
+
+.container-3 input#search::-webkit-input-placeholder {
+   color: black;
+}
+ 
+.container-3 input#search:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+ 
+.container-3 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+ 
+.container-3 input#search:-ms-input-placeholder {  
+   color: black;  
+}
+
+.container-3 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+ 
+   -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.container-3 input#search:focus, .container-3 input#search:active{
+    outline:none; 
+}
+ 
+.container-3:hover .icon{
+  margin-top: 16px;
+  color: #FFA54F;
+ 
+  -webkit-transform:scale(1.5); /* Safari and Chrome */
+  -moz-transform:scale(1.5); /* Firefox */
+  -ms-transform:scale(1.5); /* IE 9 */
+  -o-transform:scale(1.5); /* Opera */
+   transform:scale(1.5);
+}
+
